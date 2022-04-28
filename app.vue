@@ -22,8 +22,8 @@ function reset() {
 <template>
   <div>
     <div>
-      <button @click="increment">increment</button>
-      <button @click="reset">reset</button>
+      <button @click="increment()">increment</button>
+      <button @click="reset()">reset</button>
     </div>
     <div>count: {{ counterStore.count }}</div>
     <div>double: {{ counterStore.double }}</div>

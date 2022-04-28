@@ -85,6 +85,19 @@
     "import/no-default-export": "error",
     "import/no-duplicates": "error",
     "import/no-self-import": "error",
-    "vue/multi-word-component-names": ["off"]
+    "vue/multi-word-component-names": ["off"],
+    "vue/block-lang": ["error",
+      {
+        "script": {
+          "lang": "ts"
+        }
+      }
+    ],
+    "vue/component-api-style": ["error", ["script-setup"]],
+    "vue/component-name-in-template-casing": ["error", "kebab-case"],
+    "vue/no-empty-component-block": "error",
+    "vue/no-useless-mustaches": "error",
+    "vue/v-on-function-call": ["error", "always"],
+    "vue/padding-line-between-blocks": "error"
   }
 }
