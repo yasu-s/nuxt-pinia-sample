@@ -24,3 +24,7 @@ yarn
 # サーバー起動
 yarn dev
 ```
+
+## 実行結果
+
+![rp808-bi421](https://user-images.githubusercontent.com/2668146/165709436-51fb98d7-b1f8-47cb-a088-39bb287d9b27.gif)
