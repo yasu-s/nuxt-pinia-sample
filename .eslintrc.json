@@ -82,7 +82,7 @@
     "@typescript-eslint/no-floating-promises": "off",
     "@typescript-eslint/method-signature-style": ["error", "method"],
     "import/newline-after-import": "error",
-    "import/no-default-export": "error",
+    "import/no-default-export": "off",
     "import/no-duplicates": "error",
     "import/no-self-import": "error",
     "vue/multi-word-component-names": ["off"],
